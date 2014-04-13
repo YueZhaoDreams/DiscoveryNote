@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		mStartButton = (Button)findViewById(R.id.start_button);
+		mStartButton = (Button)findViewById(R.id.add_event_button);
 		mStartButton.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
